@@ -63,6 +63,7 @@ hr {
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 .header_menu_list {
   display: flex;
@@ -155,7 +156,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .picked_news_container {
   width: 550px;
@@ -250,7 +251,7 @@ button:hover {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   gap: 80px 50px;
   margin-bottom: 96px;
 }
@@ -301,7 +302,7 @@ button:hover {
 
 .form {
   width: 100%;
-  background: url("/assets/backgroundjpg.jpg");
+  background: url("../assets/backgroundjpg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 12px;
